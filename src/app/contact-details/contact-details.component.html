@@ -1,0 +1,6 @@
+<div class="footer">
+  <span *ngFor="let profile of profiles" (click)="gotToLink(profile.url)" class="profile-icon-container"
+    title="{{ profile.appName }}">
+    <img src="{{ profile.iconPath }}" alt="{{ profile.altText }}" class="{{ profile.cssClass }}">
+  </span>
+</div>
