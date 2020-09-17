@@ -1,11 +1,8 @@
 .skill {
     display: flex;
     flex-flow: wrap;
-    justify-content: space-around;
-    align-content: space-around;
-    flex: 1 1 auto;
-
+    justify-content: flex-start;
     .test {
-        margin: 10px;
+        margin: 20px;
     }
 }
