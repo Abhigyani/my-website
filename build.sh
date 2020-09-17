@@ -1,0 +1,1 @@
+rm -rf node_modules/ package-lock.json && npm cache clear --f && npm cache verify --f && npm install && ng serve -o

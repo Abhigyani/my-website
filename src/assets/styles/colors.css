@@ -1,0 +1,9 @@
+/*
+ * This file contains the colors.
+ */
+
+:root {
+    --light-red:    #E52d27;
+    --dark-red:     #B31217;
+    --white:        #FFF;
+}
